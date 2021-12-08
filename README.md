@@ -10,7 +10,7 @@
 
 ## Скриншоты
 ### Главная меню
-![image](https://user-images.githubusercontent.com/20502845/145127046-10b5c05a-5dec-45fe-9d6b-a6b4292d8213.png)
+![image](https://user-images.githubusercontent.com/20502845/145127265-6bcd99e9-9bbb-4924-a989-c692909f219f.png)
 
 ### Категория с подкатегориями
 ![image](https://user-images.githubusercontent.com/20502845/145127080-3af344c3-3dc8-4c09-abb4-4b2a23b67c1a.png)
