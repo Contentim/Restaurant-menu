@@ -1,0 +1,139 @@
+.clearfix {
+  display: block !important;
+}
+.clearfix:before {
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
+.bold {
+  font-weight: bold !important;
+}
+.mb-25 {
+  margin-bottom: 25px !important;
+}
+.text-align__center {
+  text-align: center;
+}
+.content__menu {
+  position: relative;
+}
+.content__menu h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+
+  top: 40px;
+  left: -120px;
+}
+
+
+.flex-parent {
+  display: flex;
+}
+.flex-child {
+  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.flex-child:nth-of-type(2) {
+  /*background: #ddd;*/
+}
+
+.menu__item .title {
+  font-size: 27px;
+  font-weight: 500;
+  text-align: left;
+  color: #2a353c;
+  line-height: normal;
+  margin: 10px 0;
+}
+.menu__item .title .single_size {
+  font-weight: 300;
+  display: inline-block;
+  margin: 0 0 0 5px;
+}
+.menu__item .price {
+  text-align: left;
+  color: #2a353c;
+  font-size: 28px;
+}
+.menu__item .price .size_multi {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.menu__item .price .size_multi img {
+  margin-right: 15px;
+}
+.menu__item .price .size_multi .size {
+  margin-right: 15px;
+}
+.menu__item .price .size_multi .price_item {
+  margin-right: 15px;
+}
+.menu__item .excerpt {
+  font-size: 23px;
+  font-weight: 300;
+  text-align: left;
+  color: #2a353c;
+}
+
+.menu__item img {
+  /*max-height: 405px;*/
+}
+
+.tax-menu .page-content {
+  margin: 0;
+}
+
+.garnish-price_container .size_item {
+  margin: 0 10px 0 0;
+}
+
+.garnish-price_container .price_item {
+  margin: 0 10px 0 0;
+}
+.garnish-price_container  .separator {
+  margin: 0 10px 0 0;
+}
+.garnish-price_container  .separator_common {
+  margin: 0 10px 0 0;
+}
+
+@media only screen and (min-device-width: 1330px) {
+  .thumbnail_container {
+    height: 370px;
+    width: 555px;
+    overflow: hidden;
+  }
+	.thumbnail_container img {
+		width: inherit;
+		height: inherit;
+	}
+}
+@media only screen and (max-device-width: 1329px) {
+
+}
+
+
